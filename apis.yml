@@ -1,8 +1,25 @@
 aid: ankarai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ankarai.png
 name: ankar.ai
-description: 'ankar.ai is a company surfaced as a portfolio company of index-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Ankar is an AI operating system built for patent professionals, covering the full patent
+  lifecycle: idea generation and patentability assessment, drafting of invention disclosures and applications,
+  prosecution including office-action responses and strategy, and protection through infringement monitoring
+  and competitive intelligence. It also provides small-molecule and sequence analysis, claim charts,
+  research intelligence, and traceable citations to guidelines and case law. Customers are patent law
+  firms and in-house IP teams (AmLaw 100 firms and Fortune 500 corporations), with 1,000+ users. Ankar
+  is SOC 2 Type 2 and ISO 27001:2022 certified and does not train AI models on customer data. It is
+  enterprise-sold (book-a-demo) and publishes no public developer API at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/ankarai/refs/heads/main/apis.yml
 x-type: company
 x-source: index-ventures-portfolio
@@ -14,6 +31,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Ai Ml
+- Patents
+- Intellectual Property
+- Legal Tech
+- Patent Drafting
+- Patent Prosecution
+- IP Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +45,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://ankar.ai
+  url: https://ankar.ai
+- type: Blog
+  url: https://ankar.ai/blog
+- type: Support
+  url: mailto:contact@ankar.ai
+- type: SignUp
+  url: https://ankar.ai/book-demo
+- type: TermsOfService
+  url: https://ankar.ai/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://ankar.ai/privacy-policy
+- type: Security
+  url: https://ankar.ai/security
+- type: Compliance
+  url: https://ankar.ai/security
+- type: TrustCenter
+  url: security/ankarai-trust-center.yml
+- type: DomainSecurity
+  url: security/ankarai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
