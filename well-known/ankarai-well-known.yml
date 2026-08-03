@@ -1,0 +1,7 @@
+generated: '2026-07-17'
+method: searched
+source: live probes of https://ankar.ai/.well-known/*
+host: https://ankar.ai
+documents:
+- path: /.well-known/security.txt
+  status: 404
